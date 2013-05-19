@@ -34,15 +34,9 @@ CONFIG_IRQ_WORK=y
 #
 CONFIG_EXPERIMENTAL=y
 CONFIG_INIT_ENV_ARG_LIMIT=32
-<<<<<<< HEAD:arch/arm/configs/u1nfc_defconfig
 CONFIG_CROSS_COMPILE="/usr/local/arm/arm-eabi-4.4.3/bin/arm-eabi-"
 CONFIG_LOCALVERSION=""
 CONFIG_LOCALVERSION_AUTO=y
-=======
-CONFIG_CROSS_COMPILE=""
-CONFIG_LOCALVERSION="-Shark-A17-zRam"
-# CONFIG_LOCALVERSION_AUTO is not set
->>>>>>> dbf8bf8... Linux 3.0.78:arch/arm/configs/zram_shark_defconfig
 CONFIG_HAVE_KERNEL_GZIP=y
 CONFIG_HAVE_KERNEL_LZMA=y
 CONFIG_HAVE_KERNEL_LZO=y
